@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 007__001</title>
+    <script type="text/javascript" src="./comun.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    </style>
+</head>
+
+<body>
+    <div class="selectVehiculo">
+        <fieldset>
+            <legend>Seleccione datos del vehiculo a agregar:</legend>
+            <label for="marca">Vehiculo:</label>
+            <select id="marca" class="marca"></select>
+            <label for="modelo">Modelo:</label>
+            <select id="modelo"></select>
+            <label for="imagen">Imagen:</label>
+            <select id="imagen"></select>
+            <label for="velocidadMaxima">VelocidadMaxima:</label>
+            <input type="range" id="velocidadMaxima" min="100" max="200" />
+            <button onclick="miCarrera.agregarVehiculo()">Agregar vehiculo</button>
+        </fieldset>
+    </div>
+
+    <div class="iniciarCarrera">
+        <button onclick="miCarrera.iniciarCarrera();">Iniciar Carrera</button>
+    </div>
+
+    <div id="pista" class="pista">
+        <img id="meta" class="meta" src="./img/meta.png" alt="Meta">
+        <div id="vehiculo" class="vehiculo">
+            <img src="./img/vehiculos/vehiculo1.png">
+        </div>
+    </div>
+</body>
+
+</html>

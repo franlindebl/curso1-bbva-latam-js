@@ -1,0 +1,232 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h3 {
+    display: inline-block;
+    margin: 5px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.ligth {
+    color: #666;
+}
+
+.columna {
+    height: 76%;
+    display: inline-block;
+    float: left;
+    padding: 2vw;
+}
+
+.columna-izq {
+    width: 25vw;
+    background-color: #af8282;
+    border-right: 5px #a92828 solid;
+}
+
+.columna-der {
+    background-color: #9a9a9a;
+}
+
+.button-main {
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid #000;
+}
+
+thead tr td {
+    font-weight: 800;
+}
+
+td {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.img-small {
+    width: 60px;
+    height: auto;
+}
+
+h5 {
+    margin: 10px;
+}
+
+.restaurante {
+    height: 100%;
+    width: auto;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.botones {
+    height: 10%;
+    width: auto;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mesas {
+    height: 90%;
+    width: 110%;
+    border: 5px solid #2850a9;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #7682a5;
+}
+
+.mesa-libre {
+    background: red;
+    width: 130px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+.mesa-ocupada {
+    background: green;
+    width: 130px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+.recepcion {
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn-traer {
+    height: 50px;
+    width: 100px;
+    border: 5px solid #49464a;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #6d7df5;
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 35px;
+}
+
+.grupo {
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    border: 5px solid #0c5440;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #5e8675;
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+body i {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body .marca-veh,
+.modelo-veh,
+.imagen-veh,
+.vel-veh,
+.botones-carrera {
+    display: inline-block;
+}
+
+.agregar-veh {
+    text-align: center;
+}
+
+.marca-veh {
+    width: 10%;
+    height: 50px;
+}
+
+.modelo-veh {
+    width: 10%;
+    height: 50px;
+}
+
+.imagen-veh {
+    width: 10%;
+    height: 50px;
+}
+
+.vel-veh {
+    width: 10%;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.botones-carrera {
+    width: 10%;
+    height: 50px;
+}

@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #71777f;
+    background-color: #fff;
+}
+
+.headerBBVA{
+    display: block;
+    /*Se vuelve el ancho relativo para los porcentajes*/
+    position: relative;
+}
+
+.headerLeft{
+    display: inline-block;
+    width: 60%;
+}
+
+.headerLeftLogo{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.headerLeftEnlaces{
+    display: inline-block;
+}
+
+.headerLeftEnlaces ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.headerLeftEnlaces li {
+    float: left;
+}
+
+.headerLeftEnlaces li a {
+    display: block;
+    padding: 6px;
+    text-decoration:none;
+}
+
+.headerRight{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.headerContactanos{
+    font-size: smaller;
+    float: right;
+}
+
+.headerContactanos ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.headerContactanos li {
+    float: left;
+}
+
+.headerContactanos li a {
+    display: block;
+    padding: 6px;
+    text-decoration:none;
+}
+
+.headerAccesoRegistro{
+    float: right;
+    margin-top: 20px;
+}
+
+.btnAcceso{
+    display: inline-block;
+    background: linear-gradient(to bottom,#59c000 0,#499900 100%);
+    color: white;
+    padding: 6px 13px;
+}
+
+.btnAcceso i{
+    padding-right: 5px;
+}
+
+.btnRegistro{
+    display: inline-block;
+    background: linear-gradient(to bottom,#0079c1 0,#00559d 100%);
+    color: white;
+    padding: 6px 13px;
+}
+
+.btnRegistro i{
+    padding-right: 5px;
+}
+
+.menuBBVA{
+    display: block;
+    background-color: blue;
+}
+
+.menuOpciones{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.menuOpciones ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0px 0px 0px 25px;
+    padding: 10px 0px;
+}
+
+.menuOpciones li {
+    float: left;
+}
+
+.menuOpciones li a {
+    display: block;
+    padding: 6px;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration:none;
+    opacity: 0.9;
+}
+
+.menuOpciones i {
+    padding-right: 5px;
+}
+
+.menuBusqueda{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -40px;
+}
+
+.dashboard{
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/Paisaje-Natural.jpg'); 
+    background-color: #cccccc;
+}
+
+.dashboard h1{
+    color: white;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footerSecciones{
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+
+.fooSecciones{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fooSecciones h6{
+    display: block;
+    font-size: 11px;
+    color: #434a58;
+}
+
+.fooSecciones article{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+    margin-left: 20px;
+    padding: 0px 15px;
+}
+
+.fooSecciones>article{
+    border-left: 1px solid #ededed;
+}
+
+.fooSecciones>article:first-child{
+    border-left: none;
+}
+
+.fooSecciones ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.fooSecciones li a{
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    color: #8c9299;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.fooSecciones a.ico-facebook {
+    background: url(../img/sprite_01.png) no-repeat -80px -822px;
+    padding-left: 22px;
+}
+
+.fooSecciones a.ico-twitter {
+    background: url(../img/sprite_01.png) no-repeat -80px -1372px;
+    padding-left: 22px;
+}
+
+.fooSecciones a.ico-youtube {
+    background: url(../img/sprite_01.png) no-repeat -80px -1338px;
+    padding-left: 22px;
+}

@@ -1,0 +1,135 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+h3{
+    margin-top: 0px;
+}
+
+
+table {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.ligth{
+    color: #666;
+}
+
+.columna{
+    display: inline-block;
+    padding: 2vw;
+}
+
+.columna-izq{
+    width: 20vw;
+    background-color: rgb(202,202,202);
+    border-right: 5px #666 solid;
+}
+
+.columna-der{
+    width: 70vw;;
+    background-color: #FFFFFF;
+}
+
+table{
+    width: 100%;
+    border: 2px solid #000;
+}
+
+
+
+td {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
+
+.mesa{
+    border: solid;
+    display: inline-block;
+    margin: 15px;
+    width: 15%;
+    border-radius: 90px;
+}
+
+.ocupado {
+    background-color: red;
+}
+
+.libre {
+    background-color: green;
+}
+
+.p-id {
+    font-size: x-large;
+}
+
+.button-main{
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 15%;
+    padding: 4px;
+    margin: 18px;
+    cursor: pointer;
+    border: solid blue;
+    border-radius: 10px;
+}
+
+.hbotones {
+    background-color: rgb(202,202,202);
+    border-bottom: 5px #666 solid;
+    display: flex;
+}
+
+.frecepcion {
+    background-color: rgb(202,202,202);
+    border-top: 5px #666 solid;
+    display: flex;
+}
+
+.columres {
+    display: inline-flex;
+}
+
+.grupo {
+    background-color: indianred;
+    padding: 1%;
+    margin: 1%;
+    border: solid indianred;
+    border-radius: 30px;
+}
+
+

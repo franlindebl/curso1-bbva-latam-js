@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_final_ramos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Pagina.js",
+  "config": {
+    "port": "8080"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js"
+  },
+  "author": "Ignacio Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "chai": "^4.1.0",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mocha": "^3.4.2"
+  }
+}

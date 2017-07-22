@@ -1,0 +1,54 @@
+body{
+	background-color: white;
+    background-size: cover;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.divAddProductos{
+    display: inline-block;
+    position: relative;
+    width: 205px;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 25px;
+}
+
+.divAddProductos section{
+    padding-top: 25px;
+}
+
+.divBtnAgregar{
+    text-align: center;
+}
+
+.divBtnAgregar button{
+    background-color:rgba(0,0,255, 0.3);
+    padding: 10px;
+    color: white;
+}
+
+.divListaProductos{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.divListaProductos section{
+    display: inline-block;
+}
+
+.divListaProductos table{
+    width: 600px;
+    text-align: center;
+}
+
+.divListaProductos table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.btnBorrar{
+    background-color:rgba(0,0,255, 0.3);
+    padding: 10px;
+    color: white;
+}

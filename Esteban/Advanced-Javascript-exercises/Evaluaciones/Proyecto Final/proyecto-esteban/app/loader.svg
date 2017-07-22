@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100;"
+	 xml:space="preserve">
+	<style type="text/css">
+	<![CDATA[
+		.circulo{stroke:#0077ff;fill:none;stroke-width:20}
+		.activo{fill:#0044cc}
+	]]>
+	</style>
+	<circle cx="50" cy="50" r="40" class="circulo" />
+	<path class="activo" d="M 16 14 Q 28.5 2 48.5 0.5 L 48.5 19.5 Q 37 20 29.5 27.5 Z" />
+</svg>

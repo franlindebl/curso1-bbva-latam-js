@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+}
+
+.row1 {
+    background: #b3aeda;
+    border: 2px solid #000;
+}
+
+.divDatosL {
+    background: #b7b4b4;
+    min-height: 300px;
+    border: 2px solid #fff;
+}
+
+.checkBox {
+    width: 100px;
+}
+
+.inputBox {
+    width: 100%;
+}
+
+.formulario {
+    margin-top: 20px;
+}
+
+.row2 {
+    background: #968ab3;
+    border: 2px;
+    min-height: 50px;
+}
+
+.row3 {
+    background: #624e94;
+    border: 2px;
+    color: #fff;
+    min-height: 20px;
+}
+
+.row4 {
+    background: #fff;
+    border: 2px;
+    color: #000;
+    min-height: 556px;
+}
+
+.row5 {
+    background: #968ab3;
+    border: 2px;
+    color: #fff;
+    min-height: 113px;
+}
+
+.row6 {
+    background: #fff;
+    border: 2px;
+    color: #000;
+    min-height: 50px;
+}
+
+.boton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botones {
+    background-color: #624e94;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border: 2px solid #000;
+}
+
+thead tr td {
+    font-weight: 800;
+}
+
+td {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.btn-traer {
+    height: 50px;
+    width: 100px;
+    border: 5px solid #49464a;
+    border-radius: 34px;
+    text-align: center;
+    background-color: #49464a;
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.modal-control {
+    display: block;
+}
+
+.form-altura {
+    height: 20px;
+}

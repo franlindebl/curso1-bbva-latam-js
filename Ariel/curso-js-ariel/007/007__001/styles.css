@@ -1,0 +1,19 @@
+.carril1 {
+    background-color: dimgray;
+    height: 60px;
+    border-bottom: yellow dashed 6px;
+}
+.carril2 {
+    background-color: dimgray;
+    height: 60px;
+    border-top: yellow dashed 6px;
+}
+
+#coche1 {
+    position: relative;
+    left: 0%;
+}
+#coche2 {
+    position: relative;
+    left: 0%;
+}

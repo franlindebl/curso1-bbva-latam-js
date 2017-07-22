@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Ness/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/Users/Ness/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bower-art-resolver' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bower-art-resolver
+8 silly fetchNamedPackageData bower-art-resolver
+9 silly mapToRegistry name bower-art-resolver
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bower-art-resolver',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bower-art-resolver',
+12 silly mapToRegistry   name: 'bower-art-resolver',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/bower-art-resolver
+14 verbose request uri https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/bower-art-resolver
+15 verbose request always-auth set; sending authorization
+16 info attempt registry request try #1 at 8:57:32 AM
+17 info retry will retry, error on last attempt: Error: This request requires auth credentials. Run `npm login` and repeat the request.
+18 info attempt registry request try #2 at 8:57:42 AM
+19 info retry will retry, error on last attempt: Error: This request requires auth credentials. Run `npm login` and repeat the request.
+20 info attempt registry request try #3 at 8:58:42 AM
+21 silly fetchPackageMetaData Error: This request requires auth credentials. Run `npm login` and repeat the request.
+21 silly fetchPackageMetaData     at CachingRegistryClient.authify (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/authify.js:17:14)
+21 silly fetchPackageMetaData     at CachingRegistryClient.makeRequest (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:112:17)
+21 silly fetchPackageMetaData     at /Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:66:17
+21 silly fetchPackageMetaData     at RetryOperation._fn (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/attempt.js:18:5)
+21 silly fetchPackageMetaData     at Timeout._onTimeout (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/lib/retry_operation.js:68:10)
+21 silly fetchPackageMetaData     at ontimeout (timers.js:365:14)
+21 silly fetchPackageMetaData     at tryOnTimeout (timers.js:237:5)
+21 silly fetchPackageMetaData     at Timer.listOnTimeout (timers.js:207:5)
+21 silly fetchPackageMetaData  error for bower-art-resolver Error: This request requires auth credentials. Run `npm login` and repeat the request.
+21 silly fetchPackageMetaData     at CachingRegistryClient.authify (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/authify.js:17:14)
+21 silly fetchPackageMetaData     at CachingRegistryClient.makeRequest (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:112:17)
+21 silly fetchPackageMetaData     at /Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:66:17
+21 silly fetchPackageMetaData     at RetryOperation._fn (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/attempt.js:18:5)
+21 silly fetchPackageMetaData     at Timeout._onTimeout (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/lib/retry_operation.js:68:10)
+21 silly fetchPackageMetaData     at ontimeout (timers.js:365:14)
+21 silly fetchPackageMetaData     at tryOnTimeout (timers.js:237:5)
+21 silly fetchPackageMetaData     at Timer.listOnTimeout (timers.js:207:5)
+22 silly rollbackFailedOptional Starting
+23 silly rollbackFailedOptional Finishing
+24 silly runTopLevelLifecycles Finishing
+25 silly install printInstalled
+26 verbose stack Error: This request requires auth credentials. Run `npm login` and repeat the request.
+26 verbose stack     at CachingRegistryClient.authify (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/authify.js:17:14)
+26 verbose stack     at CachingRegistryClient.makeRequest (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:112:17)
+26 verbose stack     at /Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:66:17
+26 verbose stack     at RetryOperation._fn (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/attempt.js:18:5)
+26 verbose stack     at Timeout._onTimeout (/Users/Ness/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/lib/retry_operation.js:68:10)
+26 verbose stack     at ontimeout (timers.js:365:14)
+26 verbose stack     at tryOnTimeout (timers.js:237:5)
+26 verbose stack     at Timer.listOnTimeout (timers.js:207:5)
+27 verbose cwd /Users/Ness/capacitacion/day7/examen4
+28 error Darwin 16.6.0
+29 error argv "/Users/Ness/.nvm/versions/node/v6.9.5/bin/node" "/Users/Ness/.nvm/versions/node/v6.9.5/bin/npm" "install" "bower-art-resolver"
+30 error node v6.9.5
+31 error npm  v3.10.10
+32 error This request requires auth credentials. Run `npm login` and repeat the request.
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]

@@ -1,0 +1,90 @@
+.EstructuraPoke{
+	display: block;
+}
+
+.botonesNavegacion{
+	display: block;
+	text-align: left;
+	height: 10%;
+	width: 100%;
+}
+
+
+.botonesNavegacion button{
+	display: inline-block;
+	text-align: left;
+	
+	color: white;
+}
+.botonesNavegacion p{
+	display: inline-block;
+	
+	
+	
+}
+.presentaPokemons{
+	padding-top: 10px;
+}
+.presentaPokemons td, th{
+	/*background: LightSlateGray;*/
+	border:1px solid LightSlateGray;
+	text-align: center;
+	/*margin-right: 20px;*/
+}
+/*
+.presentaPokemonsDetalle table, tr td {
+
+	background: LightSlateGray;
+	border:3px solid black;
+	width: 250px;
+	height: 90%px;
+	text-align: center;
+	font-size: 15px;
+	margin-right: 5px;
+
+}*/
+.presentaPokemonsDetalle button {
+
+	background: blue;
+	border:3px solid black;
+	
+	text-align: center;
+	font-size: 15px;
+	margin-right: 5px;
+
+}
+.presentaPokemonsDetalle td {
+
+	background: LightSlateGray;
+	border:3px solid black;
+	margin-right: 20px;
+
+}
+.presentaPokemonsDetalle{
+display: inline-block;
+	background-image: url("http://4.bp.blogspot.com/-JevDrsrz0bk/U_ODz_OK4gI/AAAAAAACRtQ/30-6x5BkiLQ/s1600/beautiful-green-lands-1920x1200-wallpaper%2Bverdes%2Bprados%2Bnaturales.jpg");
+	border:3px solid black;
+	width: 40%;
+	height: 90%px;
+	text-align: center;
+	font-size: 15px;
+	
+}
+
+.presentaPokemonsDetalle tbody, p{
+	text-align: center;
+}
+
+.presentaPokemonsDetalle tbody, p{
+	margin: 32px 69px 10px;
+}
+
+    
+.cajaTextoEntrada div{
+	display: inline-block;
+	border:3px solid green;
+	margin: 5px;
+	width: 20%;
+	text-align: center;
+	padding: 3px
+}

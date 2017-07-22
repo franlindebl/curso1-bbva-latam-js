@@ -1,0 +1,72 @@
+body{
+	background: linear-gradient(to bottom,#0079c1 0,#00559d 100%);
+    background-size: cover;
+}
+
+.pista{
+    width: 100%;
+    height: 318px;
+    background-image: url("./img/pista.jpg");
+    background-repeat: repeat-x;
+    background-color: blue;
+    display: block;
+}
+
+.inicio{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    width: 318px;
+    display: inline-block;
+    position: relative;
+    top: 130px;
+    left: -165px;
+}
+
+.meta{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    width: 318px;
+    display: inline-block;
+    position: relative;
+    top: 130px;
+    left: 550px;
+}
+
+.via1{
+    /*background-color: red;*/
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+}
+.via2{
+    /*background-color: blue;*/
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+}
+
+.divPista{
+    /*background-color: white;*/
+    width: 1000px;
+    height: 180px;
+    position: relative;
+    display: inline-block;
+    left: 30px;
+    top: 9px;
+}
+
+.vehiculo1{
+    left: -300px;
+    position: absolute;
+}
+
+.vehiculo2{
+    left: -300px;
+    position: absolute;
+}   

@@ -1,0 +1,67 @@
+body{
+	background-color: #FFFFFF;
+}
+
+h1{
+	display: inline-block;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: black 1px 1px 5px;
+	font-size: 40px;
+}
+h2{
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+img.desplazada {
+    float: right;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+th, td {
+    /*padding: 15px;*/
+    text-align: left;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background-color: #3c6dc5;
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.vehiculo {position:absolute; bottom:0px; } 
+.vehiculo {left:0px} 
+
+#vehiculo1 {position:absolute; bottom:0px; color: blue;} 
+#vehiculo1 {position:absolute; left:0px} 
+
+#ganador1 {position:absolute; left: 950px; display: none;} 
+#ganador2 {position:absolute; left: 950px; display: none;} 
+#meta {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+} 
+
+
+
+#vehiculo2 {position:absolute; bottom:100px} 
+#vehiculo2 {position:absolute; left:0px} 

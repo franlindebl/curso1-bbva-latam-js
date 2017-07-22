@@ -1,0 +1,83 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:14
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-airliner:before { content: "\f100"; }
+.flaticon-bicycle:before { content: "\f101"; }
+.flaticon-boat-front-view:before { content: "\f102"; }
+.flaticon-cable-car:before { content: "\f103"; }
+.flaticon-camper-van:before { content: "\f104"; }
+.flaticon-car-frontal-view:before { content: "\f105"; }
+.flaticon-compass:before { content: "\f106"; }
+.flaticon-golf-cart:before { content: "\f107"; }
+.flaticon-helicopter:before { content: "\f108"; }
+.flaticon-hot-air-balloon:before { content: "\f109"; }
+.flaticon-inline-skates:before { content: "\f10a"; }
+.flaticon-jet-ski:before { content: "\f10b"; }
+.flaticon-locomotive:before { content: "\f10c"; }
+.flaticon-micro-scooter:before { content: "\f10d"; }
+.flaticon-public-bus:before { content: "\f10e"; }
+.flaticon-scooter-front-view:before { content: "\f10f"; }
+.flaticon-ship-helm:before { content: "\f110"; }
+.flaticon-skateboard:before { content: "\f111"; }
+.flaticon-space-rocket:before { content: "\f112"; }
+.flaticon-train-front:before { content: "\f113"; }
+.flaticon-tram-front-view:before { content: "\f114"; }
+.flaticon-underground:before { content: "\f115"; }
+    
+    $font-Flaticon-airliner: "\f100";
+    $font-Flaticon-bicycle: "\f101";
+    $font-Flaticon-boat-front-view: "\f102";
+    $font-Flaticon-cable-car: "\f103";
+    $font-Flaticon-camper-van: "\f104";
+    $font-Flaticon-car-frontal-view: "\f105";
+    $font-Flaticon-compass: "\f106";
+    $font-Flaticon-golf-cart: "\f107";
+    $font-Flaticon-helicopter: "\f108";
+    $font-Flaticon-hot-air-balloon: "\f109";
+    $font-Flaticon-inline-skates: "\f10a";
+    $font-Flaticon-jet-ski: "\f10b";
+    $font-Flaticon-locomotive: "\f10c";
+    $font-Flaticon-micro-scooter: "\f10d";
+    $font-Flaticon-public-bus: "\f10e";
+    $font-Flaticon-scooter-front-view: "\f10f";
+    $font-Flaticon-ship-helm: "\f110";
+    $font-Flaticon-skateboard: "\f111";
+    $font-Flaticon-space-rocket: "\f112";
+    $font-Flaticon-train-front: "\f113";
+    $font-Flaticon-tram-front-view: "\f114";
+    $font-Flaticon-underground: "\f115";

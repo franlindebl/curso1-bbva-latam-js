@@ -1,0 +1,183 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+h3{
+    display: inline-block;
+    margin-top: 0px;
+}
+
+label, input, textarea{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.ligth{
+    color: #666;
+}
+
+.columna{
+    height: 100%;
+    display: inline-block;
+    float: left;
+    padding: 2vw;
+}
+
+.columna-izq{
+    width: 25vw;
+    background-color: rgba(51, 67, 72, 0);
+}
+
+.columna-der{
+    width: 60vw;
+    background-color: #FFFFFF;
+}
+
+.button-main{
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+    border: 2px solid #000;
+}
+
+thead tr td{
+    font-weight: 800;
+}
+
+td {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.img-small{
+    width: 60px;
+    height: auto;
+}
+
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+.square{
+  font-family: sans-serif;
+  color: white;
+  padding: 1em;
+    float:left;
+    width: 31.33%;
+    margin-right:3%;
+    background: deepskyblue;
+}
+.square:last-child{
+  margin-right:10px;
+  margin-bottom: 10px;
+}
+.square:before{
+    content:"";
+    display:block;
+    padding-top:100%;
+   float: left; 
+  /*Flotando el elemento podemos usar el cuadrado como cualquier otra capa y podremos meter contenido. Pero dejará de ser responsive cuando el contenido sea mayor que su alto*/
+}
+
+       .Table  
+        {  
+            display: table;  
+        }  
+
+        .Title  
+  
+        {  
+  
+            display: table-caption;  
+  
+            text-align: center;  
+  
+            font-weight: bold;  
+  
+            font-size: larger;  
+  
+        }  
+  
+        .Heading  
+  
+        {  
+  
+            display: table-row;  
+  
+            font-weight: bold;  
+  
+            text-align: center;  
+  
+        }  
+  
+        .Row  
+  
+        {  
+  
+            display: table-row;  
+  
+        }  
+  
+        .Cell  
+  
+        {  
+  
+            display: table-cell;  
+  
+            border: solid;  
+  
+            border-width: thin;  
+  
+            padding-left: 5px;  
+  
+            padding-right: 5px;  
+  
+        }  

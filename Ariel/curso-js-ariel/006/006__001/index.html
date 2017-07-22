@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Los Personajes de Fran</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+
+<body>
+	<div class="row-top">
+		<h2>Añadir personaje:</h2>
+		<p>
+			<label>Nombre:</label>
+			<input type="text" name="nombre" id="nombre">
+			<label>Ocupacion:</label>
+			<input type="text" name="ocupacion" id="ocupacion">
+			<label>Debt:</label>
+			<input type="text" name="debt" id="debt">
+			<label>Arma:</label>
+			<input type="text" name="arma" id="arma">
+			<button class="button-main" onclick="alm.getPersonajeDelForm()">Crear</button>
+		</p>
+	</div>
+	<div class="row-bottom">
+		<h3>Listado de productos:</h3>
+		<table>
+			<thead>
+				<tr>
+					<td>Nombre</td>
+					<td>Ocupacion</td>
+					<td>Debt</td>
+					<td>Arma</td>
+					<td>Eliminar</td>
+				</tr>
+			</thead>
+			<tbody id="tbodypersonaje">
+				<!-- <tr>
+					<td>
+						<img class ="img-small" src="http://www.gasoilonline.com/images/CAMI%20ROJA.jpg">
+					</td>
+					<td>Camiseta roja</td>
+					<td>10€</td>
+					<td>Camiseta de algodón</td>
+					<td>
+						<button class="button-main">Borrar</button>
+					</td>
+				</tr> -->
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
+

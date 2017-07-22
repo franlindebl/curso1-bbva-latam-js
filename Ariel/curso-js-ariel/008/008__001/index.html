@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Directorio</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<body>
+	<div class="row-top" id="formpersona">
+		<h2>Añadir contacto:</h2>
+		<p>
+			<label>Nombre:</label>
+			<input type="text" id="nombre">
+			<label>Apellidos:</label>
+			<input type="text" id="ocupacion">
+			<label>Email:</label>
+			<input type="text" id="debt">
+			<label>Foto:</label>
+			<input type="text" id="arma">
+			<button class="button-main" onclick="" id="guardar">Guardar</button>
+			<button class="button-main" onclick="ag.bCerrar();" id="cerrar">Cerrar</button>
+		</p>
+	</div>
+	<div class="row-bottom">
+		<h3>Listado de contactos:</h3>
+		<button class="button-main" onclick="ag.bCrear();" id="crear">Crear</button>
+		<table>
+			<thead>
+				<tr>
+					<td>Nombre</td>
+					<td>Apellidos</td>
+					<td>Email</td>
+					<td>Foto</td>
+					<td>Boton</td>
+				</tr>
+			</thead>
+			<tbody id="tbodycontactos">
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
+

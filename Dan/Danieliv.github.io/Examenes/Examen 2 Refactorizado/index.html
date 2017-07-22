@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Daniel's Store</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="columna-izq columna">
+    <h1>Tienda de Fran</h1>
+    <p class="ligth">Calle general mariano escobedo 303</p>
+    <h2>Añadir producto:</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" name="nombre" id="nombre" value="Camisa">
+      <label>URL:</label>
+      <input type="text" name="url" id="url" value="https://dummyimage.com/200x200/000/fff">
+      <label>Precio:</label>
+      <input type="text" name="precio" id="precio" value="1">
+      <label>Descripción:</label>
+      <textarea name="descripcion" id="descripcion" value="Lorem ipsum dolor sit."></textarea>
+    </form>
+    <button id="button" class="button-main">Añadir Producto</button>
+  </div>
+  <div class="columna-der columna">
+    <h3>Listado de productos:</h3>
+    <table>
+      <thead>
+        <tr>
+          <td>Imagen</td>
+          <td>Nombre</td>
+          <td>Precio</td>
+          <td>Descripción</td>
+          <td>Acciones</td>
+        </tr>
+      </thead>
+      <tbody id="tbodyproductos">
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

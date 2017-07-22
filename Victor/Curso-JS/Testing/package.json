@@ -1,0 +1,15 @@
+{
+  "name": "pruebatest",
+  "version": "1.0.0",
+  "description": "Esto es una prueba.",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "vhgo",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}

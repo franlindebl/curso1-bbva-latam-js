@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="carrera.js"></script>
+    <meta charset="UTF-8">
+    <title>Carrera</title>
+</head>
+
+<body>
+    <form>
+        <select name="marca" id="marca"></select>
+        <select name="modelo" id="modelo"></select>
+        <select name="imagen" id="imagen"></select>
+        <input type="button" value="Agregar Auto" onclick="obtenerSeleccion()">
+    </form>
+    <button onclick="start()">Iniciar Carrera</button>
+    <div class="imagen"></div>
+    <ul>
+        <li><i id="rider666" class="auto1 flaticon flaticon-airliner"></i></li>
+        <li><i id="bikerExtreme" class="auto2 flaticon flaticon-car-frontal-view"></i></li>
+    </ul>
+    <div class="meta"></div>
+    <div id="winner" class="winner"></div>
+</body>
+
+</html>

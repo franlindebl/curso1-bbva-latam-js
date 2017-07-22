@@ -1,0 +1,81 @@
+.show {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.divHeader {
+    height: 13vh;
+    background-color: whitesmoke;
+    opacity: 0.3;
+}
+
+.divContent {
+    /*height: 67vh;*/
+    height: 482px;
+    background-color: orangered;
+}
+
+.divPagePrincipal {
+    background-image: url(../img/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.divFooter {
+    height: 13vh;
+    background-color: whitesmoke;
+    opacity: 0.3;
+}
+
+.divTable {
+    padding: 5px;
+}
+
+.divLista {
+    background-color: aliceblue;
+}
+
+.divHeaderTable {
+    text-align: right;
+}
+
+.navbar {
+    margin-top: -52px;
+    position: absolute;
+    width: 97vw;
+}
+
+.homeBienvenida {
+    text-align: center;
+}
+
+.homeBienvenida img {
+    width: 600px;
+}
+
+#divComidasGrafica {
+    height: 100px;
+    background-color: yellow;
+
+    min-width: 310px; 
+    height: 400px; 
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+#divBebidasGrafica {
+    height: 100px;
+    background-color: yellow;
+
+    min-width: 310px; 
+    height: 400px; 
+    max-width: 600px; 
+    margin: 0 auto;
+}

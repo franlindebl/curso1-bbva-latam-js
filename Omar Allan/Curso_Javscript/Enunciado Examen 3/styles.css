@@ -1,0 +1,183 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    margin: 0px;
+    background-color: white;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+h3{
+    display: inline-block;
+    margin-top: 0px;
+}
+
+label, input, textarea{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+    width: 30%;
+    text-align: left;
+
+
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.ligth{
+    color: #666;
+}
+
+
+.fila-inferior1{ 
+    height: 75vw;
+    display: inline-block;
+    float: left;
+    padding: 2vw;  
+    width: 100vw;
+    border-right: 5px #666 solid;
+    background: linear-gradient(to bottom right, brown , white);
+}
+
+.columna-der{
+    width: 45vw;
+    height: 75vw;
+    display: inline-block;
+    float: left;
+    padding: 2vw;
+
+}
+
+.columna-izq{
+    width: 45vw;
+    height: 75vw;
+    display: inline-block;
+    float: left;
+    padding: 2vw;
+
+}
+
+.fila-inferior{   
+
+    display: block;
+    height: 130px;
+    width: 100vw;
+    background-color: rgba(117, 117, 252, 1);
+    overflow: scroll;
+    padding: 5px;
+    float: left;
+}
+
+.divRecepcion{
+    display: inline-block;
+    height: 300px;
+    width: 100vw;
+    background: linear-gradient(to bottom right, gray , white);
+    padding: 5px;
+    float: left;
+}
+
+.divGrupoClientes{
+    display: inline-block;
+    width: 10vw;
+    height: 3vw;
+    text-align: center;
+    padding: 1vw;
+    margin: 5px;
+    background: blue;
+    color: white;
+    /*border: none;*/
+    font-size: 22px;
+    /*width: 100%;*/
+}
+
+.fila-superior{   
+    width: 100vw;
+    border-right: 5px #666 solid;
+    background: linear-gradient(to bottom right, gray , white);
+    bottom: 0px;
+    height: 10vw;
+    display: inline-block;
+    float: left;
+    padding: 2vw;
+}
+
+
+.button-main{
+    background: blue;
+    color: white;
+    /*border: none;*/
+    font-size: 12px;
+    /*width: 100%;*/
+    padding: 10px;
+    /*margin-top: 20px;*/
+
+    width: 10vw;
+    height: 2vw;
+    text-align: center;
+    margin: 2vw;
+    display: inline-block;
+    border-radius: 3px;
+
+
+}
+
+table{
+    width: 100%;
+    border: 2px solid #000;
+}
+
+thead tr td{
+    font-weight: 800;
+}
+
+td {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.img-small{
+    width: 60px;
+    height: auto;
+}
+
+
+
+.card{
+    width: 9vw;
+    text-align: center;
+    margin: 2vw;
+    display: inline-block;
+    border-radius: 3px;
+    background: linear-gradient(to bottom right, blue , white);
+}
+

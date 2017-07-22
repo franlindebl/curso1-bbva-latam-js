@@ -1,0 +1,24 @@
+#restaurante {
+    display: -webkit-inline-box;
+    width: 70%;
+}
+
+.mesa {
+    margin: 20px;
+    display: inherit;
+    width: 88px;
+    height: 88px;
+    position: relative;
+}
+
+.idMesa {
+  position: absolute;
+  top: -15px;
+}
+.false {
+    background-color: red;
+}
+
+.true {
+    background-color: green;
+}

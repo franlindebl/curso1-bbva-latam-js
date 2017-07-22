@@ -1,0 +1,10 @@
+.carril {
+    background-color: dimgray;
+    height: 60px;
+    border-bottom: yellow dashed 6px;
+}
+
+.coche {
+    position: relative;
+    left: 0%;
+}

@@ -1,0 +1,78 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+	height: 98vh;
+	margin: 0px;
+	background-color: white;
+}
+
+button{
+	background: blue;
+	color: white;
+	border: none;
+	font-size: 18px;
+	padding: 3px 10px 3px 10px;
+}
+
+.buttonVer{
+    background: blue;
+	color: white;
+	border: none;
+	font-size: 8px;
+	padding: 3px 10px 3px 10px;
+    display: inline-block;
+}
+
+.divDashboard{
+	display: block;
+	height: 100vh;
+	width: 100vw;
+}
+
+.divHeader{
+    display: block;
+	width: 100vw;
+	/*height: 50px;*/
+	background-color: rgba(50, 50, 200, 0.7);
+    padding: 5px;
+    float: left;
+}
+
+.datoForm{
+    display: inline-block;
+    font-size: 16px;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.datoFormMod{
+    display: block;
+}
+
+.tablaDefault table{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 10px;
+}
+
+.tablaDefault th, td{
+	border: 1px solid black;
+	text-align: center;
+}
+
+/*  */
+.divLista{
+    display: inline-block;
+    width: 50vw;
+	height: 65vh;
+	padding: 5px 5px 5px 5px;
+    /*background-color: blanchedalmond;*/
+    overflow: scroll;
+}
+
+.divsHeader{
+	display: inline-block;
+	margin-right: 15px;
+}

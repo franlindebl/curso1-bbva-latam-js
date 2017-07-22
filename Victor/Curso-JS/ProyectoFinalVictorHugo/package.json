@@ -1,0 +1,23 @@
+{
+  "name": "projectofinal",
+  "version": "1.0.0",
+  "description": "Projecto final, creación de framework en js.",
+  "main": "/index.js",
+  "config": {
+    "port": "8080"
+  },
+  "scripts": {
+    "start": "node serve.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Victor Hugo Godinez Ortiz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "chai": "^4.1.0",
+    "express": "^4.15.3",
+    "highcharts": "^5.0.12",
+    "jquery": "3.2.1",
+    "mocha": "^3.4.2"
+  }
+}

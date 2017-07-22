@@ -1,0 +1,58 @@
+body {
+    background: url("wall.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.imagen {
+    background: url("images.jpg");
+    background-repeat: repeat-x;
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+}
+
+.meta {
+    background: url("meta.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 1150px;
+}
+
+.winner {
+    background: url("winner.png");
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background-repeat: round;
+}
+
+.auto1 {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    z-index: 1;
+}
+
+.auto2 {
+    position: absolute;
+    left: 0;
+    top: 185px;
+    z-index: 1;
+}
+
+.flaticon {
+    color: red;
+}

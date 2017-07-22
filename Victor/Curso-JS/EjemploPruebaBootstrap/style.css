@@ -1,0 +1,28 @@
+/* CSS */
+.bloque{
+    min-height: 300px;
+    border: 2px solid #000;
+}
+
+.bloque.rojo{
+    background: red;
+}
+
+.bloque.azul{
+    background: blue;
+}
+
+/* SASS */
+/*
+.bloque{
+    min-height: 300px;
+
+    &.rojo{
+        background: red;
+    }
+
+    &.azul{
+        background: azul;
+    }
+}
+*/

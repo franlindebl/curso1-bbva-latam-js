@@ -1,0 +1,19 @@
+{
+  "name": "jquery",
+  "main": "dist/jquery.js",
+  "license": "MIT",
+  "ignore": [
+    "package.json"
+  ],
+  "keywords": [
+    "jquery",
+    "javascript",
+    "browser",
+    "library"
+  ],
+  "_source": "art://jquery/jquery-dist",
+  "_target": "1.9.1 - 3",
+  "_release": "3.2.1",
+  "version": "3.2.1",
+  "_originalSource": "jquery"
+}

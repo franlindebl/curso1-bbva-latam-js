@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <title>La tienda de Fran</title>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+
+<body>
+    <div class="columna-izq columna">
+        <h1>Tienda de Fran</h1>
+        <p class="ligth">Calle general mariano escobedo 303</p>
+        <h2>Añadir producto:</h2>
+        <label>Nombre </label>
+        <input type="text" name="" id="nombre">
+        <label>URL</label>
+        <input type="text" name="" id="urlImagen">
+        <label>Precio</label>
+        <input type="text" name="" id="precio">
+        <label>Descripción</label>
+        <textarea name="descripcion" id="descripcion"></textarea> 
+        <button class="buttom-main" onclick="miTienda.getProductoAndInsert(event)">Añadir Producto</button>
+    </div>
+
+    <div class="columna-der columna">
+        <h3>Listado de productos:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Imagen</td>
+                    <td>Nombre</td>
+                    <td>Precio</td>
+                    <td>Descripción</td>
+                    <td>Acciones</td>
+                </tr>
+            </thead>
+            <tbody id="tbodyproductos">
+
+            </tbody>
+        </table>
+    </div>
+
+ </body>
+</html>

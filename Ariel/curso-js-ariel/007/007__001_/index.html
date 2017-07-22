@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ejercicio 007__001</title>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<h1>Arrancones!</h1>
+	<p>
+		<label>Marca</label>
+		<select id="marca">
+		</select>
+
+		<label>Modelo</label>
+		<select id="modelo">
+		</select>
+
+		<label>Velocidad</label>
+		<input type="text" id="velocidad" value="100">
+
+		<label>Imagen</label>
+		<select id="vehiculo">
+		</select>
+		<button onclick="carrera.addCarro(event)">Añadir vehiculo</button>
+		<button onclick="carrera.iniciarCarrera(event)">Iniciar carrera</button>
+	</p>
+	<div id="contenedor">
+		<section id="carril" class="carril">
+			<img id="coche" src="" width="150px" height="46.5px">
+		</section>
+		
+	</div>
+</body>
+
+</html>

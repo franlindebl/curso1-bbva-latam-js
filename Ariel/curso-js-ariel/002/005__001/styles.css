@@ -1,0 +1,137 @@
+.contenedor-header {
+	display: flex;
+    justify-content: space-between;
+    width: 67%;
+    padding-left: 15%;
+}
+
+.logo-bbva {
+}
+
+.links {
+	padding-left: 0px;
+    padding-top: 35px;
+    margin-right: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-persona {
+	margin-left: 25px;
+	text-decoration: none;
+    color: gray;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.cont-button {
+	padding-right: 5px;
+}
+
+.buttons-header {
+	display: inline-flex;
+}
+
+.button-acceso {
+	background-color: green;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: green;
+}
+
+.button-registro {
+	background-color: dodgerblue;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: dodgerblue;
+}
+
+.nav-contenedor {
+	display: flex;
+    background-color: dodgerblue;
+    justify-content: space-around;
+    height: 55px;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.text-title-menu {
+	text-decoration: none;
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.buscar{
+	width: 8%;
+    height: 50%;
+}
+
+.banner {
+	    width: 100%;
+}
+
+.footer-colum {
+	padding-top: 10px;
+	display: flex; 
+	justify-content: space-around;
+	padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+
+.footer-header {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+li {
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul {
+	margin: 5px;
+	padding: 0;
+}
+
+a , span{
+	text-decoration: none;
+	color: dimgray;
+	font-size: x-small;
+    font-family: sans-serif;
+    
+}
+
+.border-colum {
+	padding-left: 5px;
+	border-color: lightgrey;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+}
+
+.footer-row {
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: space-around;
+	padding-left: 15%;
+    padding-right: 15%;
+}
+.border-row {
+	border-color: lightgrey;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    background-color: #f9f9fb;
+}

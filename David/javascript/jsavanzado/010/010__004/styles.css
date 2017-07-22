@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+ 
+* {
+    margin: 0; 
+    padding: 0;
+}
+  
+
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+h3{
+    display: inline-block;
+    margin-top: 0px;
+}
+
+label, input, textarea{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.ligth{
+    color: #666;
+}
+
+.columna{
+    height: 100%;
+    display: inline-block;
+    float: left;
+    padding: 2vw;
+}
+
+.columna-izq{
+    width: 25vw;
+    background-color: rgba(51, 67, 72, 0);
+}
+
+.columna-der{
+    width: 60vw;
+    background-color: #FFFFFF;
+}
+
+.button-main{
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+    border: 2px solid #000;
+}
+
+thead tr td{
+    font-weight: 800;
+}
+
+td {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.img-small{
+    width: 60px;
+    height: auto;
+}
+
+*{
+ /* box-sizing: border-box;*/
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+.square{
+  font-family: sans-serif;
+  /*font-size: 10px;*/
+
+}
+.squarePorcentajeMesa{
+  width: 20%;
+  color: white;
+  padding: 1em;
+  float:left;
+  margin-right:3%;
+  background: deepskyblue;
+}
+
+.squarePorcentajeProductos{
+  width: 23.33%;
+  color: #000000;
+  padding: 1em;
+  float:left;
+  margin-right:3%;
+
+}
+
+.square:last-child{
+  margin-right:10px;
+  margin-bottom: 10px;
+}
+.square:before{
+    content:"";
+    display:block;
+    padding-top:100%;
+   float: left; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: darkorange;
+}
+
+.header {
+    top: 0;
+    height: 50px;
+    background-color: darkorange;
+}
+
+button {
+    background-color: #3c6dc5;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 5px;
+    font-size: 14px;
+}
+
+       
+body {
+    font-family: Ubuntu, arial, verdana;
+}
+
+.pricing_table {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 800px; 
+    padding-top: 50px;
+    margin-top: 50px;
+}
+ 
+.price_block {
+    width: 33.33%; 
+    color: #fff; 
+    float: left; 
+    list-style-type: none; 
+    transition: all 0.25s; 
+    position: absolute; 
+    box-sizing: border-box;
+    margin-bottom: 50px; 
+    border-bottom: 0px solid transparent; 
+}
+
+.pricing_table h3 {
+    text-transform: uppercase; 
+    padding: 5px 10px; 
+    background: #333; 
+    margin: 0px 10px 1px 10px;
+}
+
+.price {
+    display: block; 
+    background: #444; 
+    width: 100%; 
+    height: 50px; 
+}
+
+.price_figure {
+    font-size: 18px; 
+    text-transform: uppercase; 
+    vertical-align: middle;  
+    display: block;
+}
+.price_number {
+    font-weight: bold; 
+    display: block;
+}
+.price_tenure {
+    font-size: 18px; 
+}
+
+.price_block:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.04) translateY(-5px); 
+    z-index: 1; 
+    border-bottom: 0 none;
+}
+.price_block:hover .price {
+    background:linear-gradient(#DB7224, #F9B84A); 
+    box-shadow: inset 0 0 45px 1px #DB7224;
+}
+.price_block:hover h3 {
+    background: #222;
+}
+.price_block:hover .action_button {
+    background: linear-gradient(#F9B84A, #DB7224); 
+}
+
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+    .price_block {width: 50%;}
+    .price_block:nth-child(odd) {border-right: 1px solid transparent;}
+    .price_block:nth-child(3) {clear: both;}
+     
+    .price_block:nth-child(odd):hover {border: 0 none;}
+}
+@media only screen and (min-width : 768px){
+    .price_block {width: 25%;}
+    .price_block {border-right: 1px solid transparent; border-bottom: 0 none;}
+    .price_block:last-child {border-right: 0 none;}
+     
+    .price_block:hover {border: 0 none;}
+}

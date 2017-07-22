@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Examen semana 2</title>
+    <script type="text/javascript" src="./comun.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="divAddProductos">
+        <article>
+            <h1>Tienda de Fran</h1>
+            <em>Emphasized text</em>
+            <section>
+                <p>
+                    <h4>Añadir Producto</h4>
+                </p>
+                <label for="txtNombre"><h5>Nombre:</h5></label>
+                <input id="txtNombre" type="text" size="32" placeholder="Nombre del producto" />
+                <label for="txtUrlImagen"><h5>URL imagen:</h5></label>
+                <input id="txtUrlImagen" type="text" size="32" placeholder="URL de la imagen del producto" />
+                <label for="txtPrecio"><h5>Precio:</h5></label>
+                <input id="txtPrecio" type="text" size="32" placeholder="Precio del producto" />
+                <label for="txtDescripcion"><h5>Descripción:</h5></label>
+                <textarea id="txtDescripcion" rows="10" cols="30" placeholder="Descripción del producto"></textarea>
+                <div class="divBtnAgregar">
+                    <button onclick="miTienda.addProducto()">Añadir Producto</button>
+                </div>
+            </section>
+        </article>
+    </div>
+    <div class="divListaProductos">
+        <article>
+            <h1>Lista de Productos:</h1>
+            <section>
+                <table id="tableProductos">
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Descripción</th>
+                        <th>Acciones</th>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </div>
+</body>
+
+</html>
